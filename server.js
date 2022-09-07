@@ -8,7 +8,7 @@ const servidor = http.createServer( ( req , res ) => {
 })
 servidor.listen( port, host , () => {
     console.log( ' Servidor rodando em http:// ' +  host + ':' + port )
- 
+  
 })
 
 
